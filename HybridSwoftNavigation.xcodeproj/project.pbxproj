@@ -15,6 +15,16 @@
 		68ED2C4B1AC61856008DE19E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68ED2C4A1AC61856008DE19E /* Images.xcassets */; };
 		68ED2C4E1AC61856008DE19E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68ED2C4C1AC61856008DE19E /* LaunchScreen.xib */; };
 		68ED2C5A1AC61856008DE19E /* HybridSwoftNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ED2C591AC61856008DE19E /* HybridSwoftNavigationTests.m */; };
+		68ED2C661AC618DE008DE19E /* SwoftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED2C641AC618DE008DE19E /* SwoftViewController.swift */; };
+		68ED2C671AC618DE008DE19E /* SwoftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68ED2C651AC618DE008DE19E /* SwoftViewController.xib */; };
+		68ED2C771AC6214A008DE19E /* CoreFrameworkCustOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ED2C761AC6214A008DE19E /* CoreFrameworkCustOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68ED2C7D1AC6214A008DE19E /* CoreFrameworkCustOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ED2C721AC6214A008DE19E /* CoreFrameworkCustOC.framework */; };
+		68ED2C861AC6214A008DE19E /* CoreFrameworkCustOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ED2C851AC6214A008DE19E /* CoreFrameworkCustOCTests.m */; };
+		68ED2C891AC6214A008DE19E /* CoreFrameworkCustOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ED2C721AC6214A008DE19E /* CoreFrameworkCustOC.framework */; };
+		68ED2C8A1AC6214A008DE19E /* CoreFrameworkCustOC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68ED2C721AC6214A008DE19E /* CoreFrameworkCustOC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		68ED2C921AC62181008DE19E /* ThirdOcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ED2C691AC61CB7008DE19E /* ThirdOcViewController.m */; };
+		68ED2C931AC62188008DE19E /* ThirdOcViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ED2C681AC61CB7008DE19E /* ThirdOcViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68ED2C941AC6218F008DE19E /* ThirdOcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68ED2C6A1AC61CB7008DE19E /* ThirdOcViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +35,42 @@
 			remoteGlobalIDString = 68ED2C361AC61856008DE19E;
 			remoteInfo = HybridSwoftNavigation;
 		};
+		68ED2C7E1AC6214A008DE19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68ED2C2F1AC61856008DE19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ED2C711AC6214A008DE19E;
+			remoteInfo = CoreFrameworkCustOC;
+		};
+		68ED2C801AC6214A008DE19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68ED2C2F1AC61856008DE19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ED2C361AC61856008DE19E;
+			remoteInfo = HybridSwoftNavigation;
+		};
+		68ED2C871AC6214A008DE19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68ED2C2F1AC61856008DE19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ED2C711AC6214A008DE19E;
+			remoteInfo = CoreFrameworkCustOC;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68ED2C8E1AC6214A008DE19E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				68ED2C8A1AC6214A008DE19E /* CoreFrameworkCustOC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		68ED2C371AC61856008DE19E /* HybridSwoftNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridSwoftNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +87,18 @@
 		68ED2C531AC61856008DE19E /* HybridSwoftNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridSwoftNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ED2C581AC61856008DE19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68ED2C591AC61856008DE19E /* HybridSwoftNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridSwoftNavigationTests.m; sourceTree = "<group>"; };
+		68ED2C631AC618DE008DE19E /* HybridSwoftNavigation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HybridSwoftNavigation-Bridging-Header.h"; sourceTree = "<group>"; };
+		68ED2C641AC618DE008DE19E /* SwoftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwoftViewController.swift; sourceTree = "<group>"; };
+		68ED2C651AC618DE008DE19E /* SwoftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwoftViewController.xib; sourceTree = "<group>"; };
+		68ED2C681AC61CB7008DE19E /* ThirdOcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdOcViewController.h; path = ../HybridSwoftNavigation/ThirdOcViewController.h; sourceTree = "<group>"; };
+		68ED2C691AC61CB7008DE19E /* ThirdOcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdOcViewController.m; path = ../HybridSwoftNavigation/ThirdOcViewController.m; sourceTree = "<group>"; };
+		68ED2C6A1AC61CB7008DE19E /* ThirdOcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdOcViewController.xib; path = ../HybridSwoftNavigation/ThirdOcViewController.xib; sourceTree = "<group>"; };
+		68ED2C721AC6214A008DE19E /* CoreFrameworkCustOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreFrameworkCustOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ED2C751AC6214A008DE19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68ED2C761AC6214A008DE19E /* CoreFrameworkCustOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreFrameworkCustOC.h; sourceTree = "<group>"; };
+		68ED2C7C1AC6214A008DE19E /* CoreFrameworkCustOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreFrameworkCustOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ED2C841AC6214A008DE19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68ED2C851AC6214A008DE19E /* CoreFrameworkCustOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreFrameworkCustOCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68ED2C891AC6214A008DE19E /* CoreFrameworkCustOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +114,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ED2C6E1AC6214A008DE19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ED2C791AC6214A008DE19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ED2C7D1AC6214A008DE19E /* CoreFrameworkCustOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +140,8 @@
 			children = (
 				68ED2C391AC61856008DE19E /* HybridSwoftNavigation */,
 				68ED2C561AC61856008DE19E /* HybridSwoftNavigationTests */,
+				68ED2C731AC6214A008DE19E /* CoreFrameworkCustOC */,
+				68ED2C821AC6214A008DE19E /* CoreFrameworkCustOCTests */,
 				68ED2C381AC61856008DE19E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +151,8 @@
 			children = (
 				68ED2C371AC61856008DE19E /* HybridSwoftNavigation.app */,
 				68ED2C531AC61856008DE19E /* HybridSwoftNavigationTests.xctest */,
+				68ED2C721AC6214A008DE19E /* CoreFrameworkCustOC.framework */,
+				68ED2C7C1AC6214A008DE19E /* CoreFrameworkCustOCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +169,9 @@
 				68ED2C4C1AC61856008DE19E /* LaunchScreen.xib */,
 				68ED2C411AC61856008DE19E /* HybridSwoftNavigation.xcdatamodeld */,
 				68ED2C3A1AC61856008DE19E /* Supporting Files */,
+				68ED2C641AC618DE008DE19E /* SwoftViewController.swift */,
+				68ED2C651AC618DE008DE19E /* SwoftViewController.xib */,
+				68ED2C631AC618DE008DE19E /* HybridSwoftNavigation-Bridging-Header.h */,
 			);
 			path = HybridSwoftNavigation;
 			sourceTree = "<group>";
@@ -122,7 +202,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		68ED2C731AC6214A008DE19E /* CoreFrameworkCustOC */ = {
+			isa = PBXGroup;
+			children = (
+				68ED2C681AC61CB7008DE19E /* ThirdOcViewController.h */,
+				68ED2C691AC61CB7008DE19E /* ThirdOcViewController.m */,
+				68ED2C6A1AC61CB7008DE19E /* ThirdOcViewController.xib */,
+				68ED2C761AC6214A008DE19E /* CoreFrameworkCustOC.h */,
+				68ED2C741AC6214A008DE19E /* Supporting Files */,
+			);
+			path = CoreFrameworkCustOC;
+			sourceTree = "<group>";
+		};
+		68ED2C741AC6214A008DE19E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68ED2C751AC6214A008DE19E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68ED2C821AC6214A008DE19E /* CoreFrameworkCustOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				68ED2C851AC6214A008DE19E /* CoreFrameworkCustOCTests.m */,
+				68ED2C831AC6214A008DE19E /* Supporting Files */,
+			);
+			path = CoreFrameworkCustOCTests;
+			sourceTree = "<group>";
+		};
+		68ED2C831AC6214A008DE19E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68ED2C841AC6214A008DE19E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68ED2C6F1AC6214A008DE19E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ED2C771AC6214A008DE19E /* CoreFrameworkCustOC.h in Headers */,
+				68ED2C931AC62188008DE19E /* ThirdOcViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		68ED2C361AC61856008DE19E /* HybridSwoftNavigation */ = {
@@ -132,10 +261,12 @@
 				68ED2C331AC61856008DE19E /* Sources */,
 				68ED2C341AC61856008DE19E /* Frameworks */,
 				68ED2C351AC61856008DE19E /* Resources */,
+				68ED2C8E1AC6214A008DE19E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				68ED2C881AC6214A008DE19E /* PBXTargetDependency */,
 			);
 			name = HybridSwoftNavigation;
 			productName = HybridSwoftNavigation;
@@ -160,6 +291,43 @@
 			productReference = 68ED2C531AC61856008DE19E /* HybridSwoftNavigationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		68ED2C711AC6214A008DE19E /* CoreFrameworkCustOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ED2C8B1AC6214A008DE19E /* Build configuration list for PBXNativeTarget "CoreFrameworkCustOC" */;
+			buildPhases = (
+				68ED2C6D1AC6214A008DE19E /* Sources */,
+				68ED2C6E1AC6214A008DE19E /* Frameworks */,
+				68ED2C6F1AC6214A008DE19E /* Headers */,
+				68ED2C701AC6214A008DE19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreFrameworkCustOC;
+			productName = CoreFrameworkCustOC;
+			productReference = 68ED2C721AC6214A008DE19E /* CoreFrameworkCustOC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68ED2C7B1AC6214A008DE19E /* CoreFrameworkCustOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ED2C8F1AC6214A008DE19E /* Build configuration list for PBXNativeTarget "CoreFrameworkCustOCTests" */;
+			buildPhases = (
+				68ED2C781AC6214A008DE19E /* Sources */,
+				68ED2C791AC6214A008DE19E /* Frameworks */,
+				68ED2C7A1AC6214A008DE19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68ED2C7F1AC6214A008DE19E /* PBXTargetDependency */,
+				68ED2C811AC6214A008DE19E /* PBXTargetDependency */,
+			);
+			name = CoreFrameworkCustOCTests;
+			productName = CoreFrameworkCustOCTests;
+			productReference = 68ED2C7C1AC6214A008DE19E /* CoreFrameworkCustOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,6 +341,13 @@
 						CreatedOnToolsVersion = 6.2;
 					};
 					68ED2C521AC61856008DE19E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 68ED2C361AC61856008DE19E;
+					};
+					68ED2C711AC6214A008DE19E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					68ED2C7B1AC6214A008DE19E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 68ED2C361AC61856008DE19E;
 					};
@@ -193,6 +368,8 @@
 			targets = (
 				68ED2C361AC61856008DE19E /* HybridSwoftNavigation */,
 				68ED2C521AC61856008DE19E /* HybridSwoftNavigationTests */,
+				68ED2C711AC6214A008DE19E /* CoreFrameworkCustOC */,
+				68ED2C7B1AC6214A008DE19E /* CoreFrameworkCustOCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,11 +381,27 @@
 			files = (
 				68ED2C491AC61856008DE19E /* Main.storyboard in Resources */,
 				68ED2C4E1AC61856008DE19E /* LaunchScreen.xib in Resources */,
+				68ED2C671AC618DE008DE19E /* SwoftViewController.xib in Resources */,
 				68ED2C4B1AC61856008DE19E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		68ED2C511AC61856008DE19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ED2C701AC6214A008DE19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ED2C941AC6218F008DE19E /* ThirdOcViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ED2C7A1AC6214A008DE19E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68ED2C661AC618DE008DE19E /* SwoftViewController.swift in Sources */,
 				68ED2C401AC61856008DE19E /* AppDelegate.m in Sources */,
 				68ED2C431AC61856008DE19E /* HybridSwoftNavigation.xcdatamodeld in Sources */,
 				68ED2C461AC61856008DE19E /* ViewController.m in Sources */,
@@ -237,6 +431,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68ED2C6D1AC6214A008DE19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ED2C921AC62181008DE19E /* ThirdOcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ED2C781AC6214A008DE19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ED2C861AC6214A008DE19E /* CoreFrameworkCustOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +454,21 @@
 			isa = PBXTargetDependency;
 			target = 68ED2C361AC61856008DE19E /* HybridSwoftNavigation */;
 			targetProxy = 68ED2C541AC61856008DE19E /* PBXContainerItemProxy */;
+		};
+		68ED2C7F1AC6214A008DE19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ED2C711AC6214A008DE19E /* CoreFrameworkCustOC */;
+			targetProxy = 68ED2C7E1AC6214A008DE19E /* PBXContainerItemProxy */;
+		};
+		68ED2C811AC6214A008DE19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ED2C361AC61856008DE19E /* HybridSwoftNavigation */;
+			targetProxy = 68ED2C801AC6214A008DE19E /* PBXContainerItemProxy */;
+		};
+		68ED2C881AC6214A008DE19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ED2C711AC6214A008DE19E /* CoreFrameworkCustOC */;
+			targetProxy = 68ED2C871AC6214A008DE19E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,9 +574,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HybridSwoftNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HybridSwoftNavigation/HybridSwoftNavigation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +587,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HybridSwoftNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HybridSwoftNavigation/HybridSwoftNavigation-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -399,6 +629,78 @@
 			};
 			name = Release;
 		};
+		68ED2C8C1AC6214A008DE19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreFrameworkCustOC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68ED2C8D1AC6214A008DE19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreFrameworkCustOC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68ED2C901AC6214A008DE19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreFrameworkCustOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridSwoftNavigation.app/HybridSwoftNavigation";
+			};
+			name = Debug;
+		};
+		68ED2C911AC6214A008DE19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreFrameworkCustOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridSwoftNavigation.app/HybridSwoftNavigation";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +726,22 @@
 			buildConfigurations = (
 				68ED2C611AC61856008DE19E /* Debug */,
 				68ED2C621AC61856008DE19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68ED2C8B1AC6214A008DE19E /* Build configuration list for PBXNativeTarget "CoreFrameworkCustOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ED2C8C1AC6214A008DE19E /* Debug */,
+				68ED2C8D1AC6214A008DE19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68ED2C8F1AC6214A008DE19E /* Build configuration list for PBXNativeTarget "CoreFrameworkCustOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ED2C901AC6214A008DE19E /* Debug */,
+				68ED2C911AC6214A008DE19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

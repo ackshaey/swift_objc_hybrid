@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+// This is the swift header that will be generated
+// at runtime. Name of the 
+#import "HybridSwoftNavigation-Swift.h"
+
 @interface ViewController ()
 
 @end
@@ -22,6 +26,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)goNext:(id)sender
+{
+    SwoftViewController *vc = [[SwoftViewController alloc] initWithNibName:@"SwoftViewController" bundle:nil];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self showViewController:navController sender:nil];
 }
 
 @end
